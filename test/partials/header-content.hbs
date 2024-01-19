@@ -1,16 +1,16 @@
 <header class="header">
   <nav class="navbar">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://developers.redhat.com" target="_blank"><img
-          src="{{uiRootPath}}/img/header_logo.png" height="40px" alt="Red Hat Developer Program"></a>
-      <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}">{{site.title}}</a>
+      <a class="navbar-item" href="https://www.redhat.com/en/technologies/cloud-computing/openshift/azure" target="_blank"><img
+          src="{{uiRootPath}}/img/Logo-Red_Hat-OpenShift_4-A-Reverse-RGB.png" height="40px" alt="Red Hat OpenShift 4"></a>
+      <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}" style="color: white;"><h3>{{site.title}}</h3></a>
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
         <span></span>
         <span></span>
       </button>
     </div>
-    <div id="topbar-nav" class="navbar-menu">
+    {{!-- <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
         <a class="navbar-item" href="#">Books</a>
         <div class="navbar-item has-dropdown is-hoverable">
@@ -43,6 +43,6 @@
           </span>
         </div>
       </div>
-    </div>
+    </div> --}}
   </nav>
 </header>
